@@ -5,26 +5,26 @@ public class Helper {
 
 
     public Helper() {
-        questions[0] = new Question("How many planets are there in universe?",
-                new String[]{"6", "8", "10"},
-                new int[]{1}
-        );
-        questions[1] = new Question("Who is first person to land on moon?",
-                new String[]{"Neil Armstrong", "Thomas Edison", "Carlson"},
+        questions[0] = new Question("What software company is headquartered in Redmond, Washington?",
+                new String[]{"Microsoft", "Google", "Apple"},
                 new int[]{0}
+        );
+        questions[1] = new Question("What is the name of the World's largest ocean?",
+                new String[]{"Atlantic Ocean", " Pacific Ocean", "Indian Ocean"},
+                new int[]{1}
         );
         questions[2] = new Question("What are the programming languages used in android studio? (multiple answers)",
                 new String[]{"Java", "Kotlin",
                         "React"},
                 new int[]{0, 1}
         );
-        questions[3] = new Question("Which is the closest state to New Jersey?",
-                new String[]{"NewYork",
-                        "Texas", "California"},
-                new int[]{0}
+        questions[3] = new Question("What’s the shortcut for the “copy” function on most computers?",
+                new String[]{"ctrl v",
+                        "ctrl c", "ctrl c+v"},
+                new int[]{1}
         );
-        questions[4] = new Question("Which is the fastest car in the world?",
-                new String[]{"Jeep", "Bugati", "Ferrari"},
+        questions[4] = new Question("How many wisdom teeth does the average adult have?",
+                new String[]{"3", "1", "4"},
                 new int[]{2}
         );
 

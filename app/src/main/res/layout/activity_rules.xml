@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/retro_yellow"
+    android:background="@color/teal_700"
     tools:context=".Rules">
 
     <TextView
@@ -37,7 +37,7 @@
         android:text="1. Each user should has only one attempt"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:textStyle="bold|italic"
+        android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/TakeQuiz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
         android:text="3. Should score two to qualify for the next round"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:textStyle="bold|italic"
+        android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/TakeQuiz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
@@ -66,7 +66,7 @@
         android:text="2. Each question has one or more answers"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:textStyle="bold|italic"
+        android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/TakeQuiz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
